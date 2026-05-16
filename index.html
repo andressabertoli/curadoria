@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curadoria da Nutri — Lipedema</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background: #faf9f7;
+        }
+
+        .hero {
+            position: relative;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #2F5366, #74A48E);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 300;
+            letter-spacing: -1px;
+        }
+
+        .hero-content h1 em {
+            font-style: italic;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section-header {
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #E8EEF9;
+        }
+
+        .section-number {
+            font-size: 0.9rem;
+            color: #74A48E;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: #2F5366;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .product {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 15px rgba(47, 83, 102, 0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .product:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(116, 164, 142, 0.15);
+        }
+
+        .product-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: #2F5366;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .product-links {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn-amazon {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 20px;
+            background: #74A48E;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .btn-amazon:hover {
+            background: #2F5366;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(47, 83, 102, 0.3);
+        }
+
+        .btn-amazon::before {
+            content: "🛒";
+        }
+
+        footer {
+            background: #2F5366;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        footer h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        footer p {
+            margin-bottom: 8px;
+            opacity: 0.9;
+        }
+
+        footer a {
+            color: #D3A973;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            color: #74A48E;
+        }
+
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .product {
+                padding: 20px;
+            }
+
+            .product-title {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Curadoria da <em>Nutri</em></h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- MOVIMENTO & TERAPIAS -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-number">01</div>
+                <h2 class="section-title">Movimento & Terapias</h2>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Bota Pneumática de Compressão</h3>
+                <div class="product-links">
+                    <a href="https://www.amazon.com.br/s?k=bota+pneumatica+compressao+linfatica" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Tapete de LED</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4u1cw45" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Plataforma Vibratória</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/42nW1mI" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Bike Ergométrica — Custo-Benefício</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4cZ3dvx" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Bike Ergométrica — Versão Conforto</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4ttOJsl" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Alça de Alongamento de Panturrilha</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4u285WU" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Massageador</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/49bzZHF" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Escova a Seco</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4wpJpcw" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Raspador de Língua</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4deYogx" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPRESSÃO -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-number">02</div>
+                <h2 class="section-title">Compressão</h2>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Legging Emana</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4tVWhoZ" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Meia Calça Sigvaris 972 AT — 20-30 mmHg</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/3RfxWfj" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Meia Calça Sigvaris Select Comfort 862AT</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4uvcoK6" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Meia Calça Sigvaris G3</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4wihLxR" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- COZINHA FUNCIONAL -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-number">03</div>
+                <h2 class="section-title">Cozinha Funcional</h2>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Ninja Shark — Liquidificador Portátil</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4ni866v" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Cozedor de Ovos Elétrico</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4u0X2gF" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Panela de Pressão Elétrica</h3>
+                <div class="product-links">
+                    <a href="https://www.amazon.com.br/s?k=panela+pressao+eletrica" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Caçarola de Cerâmica Antiaderente 26cm</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4uImUxL" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Conjunto Ceraflame Cerâmica — 5 Peças</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4njHthu" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Garrafa de Água 1L</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/3PunOyQ" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Chaleira com Infusora</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/3P6TwSH" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUPLEMENTOS -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-number">04</div>
+                <h2 class="section-title">Suplementos</h2>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Ômega 3</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4exFVOy" class="btn-amazon" target="_blank" rel="noopener">Opção 1</a>
+                    <a href="https://amzn.to/4dbpMfd" class="btn-amazon" target="_blank" rel="noopener">Opção 2</a>
+                    <a href="https://amzn.to/3Pb4K8I" class="btn-amazon" target="_blank" rel="noopener">Opção 3</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Psyllium</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/3OU3bvT" class="btn-amazon" target="_blank" rel="noopener">Opção 1</a>
+                    <a href="https://amzn.to/4tX7vcR" class="btn-amazon" target="_blank" rel="noopener">Opção 2</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Whey Protein</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4fijm0q" class="btn-amazon" target="_blank" rel="noopener">Opção 1</a>
+                    <a href="https://amzn.to/4nkWQGf" class="btn-amazon" target="_blank" rel="noopener">Opção 2</a>
+                    <a href="https://amzn.to/4fbYxUs" class="btn-amazon" target="_blank" rel="noopener">Opção 3</a>
+                    <a href="https://amzn.to/42qGcLS" class="btn-amazon" target="_blank" rel="noopener">Opção 4</a>
+                    <a href="https://amzn.to/3Pdbd2M" class="btn-amazon" target="_blank" rel="noopener">Opção 5</a>
+                    <a href="https://www.amazon.com.br/Iso-Fort-900g-Neutro-VitaFor/dp/B07KX57QQ1" class="btn-amazon" target="_blank" rel="noopener">Isofort</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Enzima Glúten</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4u022C1" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Lactase Perlatte</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/3R1alyX" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Fibras Prebióticas</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4wm378I" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Própolis</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4uz0Fdq" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Glutamina</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/3QYxbau" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">NAC</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4njPHpP" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Vitamina B12</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/3QZ0zNL" class="btn-amazon" target="_blank" rel="noopener">Opção 1</a>
+                    <a href="https://amzn.to/4eW8JR9" class="btn-amazon" target="_blank" rel="noopener">Opção 2</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Barrinhas de Proteína</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4u39Fri" class="btn-amazon" target="_blank" rel="noopener">Pincbar</a>
+                    <a href="https://amzn.to/4nlATXQ" class="btn-amazon" target="_blank" rel="noopener">Winstage</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Magnésio com GABA</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/48NfWz4" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <h3 class="product-title">Suplemento para Sono</h3>
+                <div class="product-links">
+                    <a href="https://amzn.to/4dz2nWv" class="btn-amazon" target="_blank" rel="noopener">Ver na Amazon</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <h3>Andressa Bertoli</h3>
+        <p>Nutricionista CRN 810635</p>
+        <p><a href="https://wa.me/5542998048864">📲 (42) 99804-8864</a></p>
+        <p><a href="https://instagram.com/lipedemanutricionista" target="_blank" rel="noopener">@lipedemanutricionista</a></p>
+    </footer>
+</body>
+</html>
